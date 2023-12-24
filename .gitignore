@@ -1,0 +1,23 @@
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore local development settings
+.env
+
+# Ignore database files
+db.sqlite3
+
+# Geçici dosyalar
+*~
+*.swp
+
+
+# Derleme dosyaları ve klasörleri
+*.pyc
+__pycache__/
+*.class
+target/
+
+# Veritabanı dosyaları
+*.sqlite
+*.db
